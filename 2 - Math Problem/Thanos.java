@@ -4,8 +4,6 @@ import java.io.InputStreamReader;
 
 class Thanos {
     public static void main(String[] args)  throws IOException {
-        int x = 9999 * 9999999;
-        System.out.println(x);
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         int t = Integer.parseInt(reader.readLine());
         for (int i = 0; i < t;  i++) {
